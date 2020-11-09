@@ -2,22 +2,22 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: 'Rian Mellotte | Developer', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  description: 'Welcome to my website', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
+  title: 'Hello, my name is',
+  name: 'Rian Mellotte',
   subtitle: '',
-  cta: '',
+  cta: 'Know more',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'profile.jpeg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
@@ -29,11 +29,17 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'facerecognition411',
+    info: 'This react app connects to clarifai\'s AI facial \
+          recognition API to detect faces in the users \
+          submitted pictures. It makes use of front-\
+          end and back-end design to deliver various \
+          pages to the user. It also connects to a \
+          database to store users data and enable \
+          sign-in functionality.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://facerecognition411.herokuapp.com/',
+    repo: 'https://github.com/RianMellotte/facerecognition-Frontend', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -57,38 +63,38 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Please email me for all enquiries!',
+  btn: 'Email',
+  email: 'rianmellotte@hotmail.co.uk',
 };
 
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'twitter',
+    //   url: '',
+    // },
+    // {
+    //   id: nanoid(),
+    //   name: 'codepen',
+    //   url: '',
+    // },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://uk.linkedin.com/in/rian-mellotte-ab121b157',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/RianMellotte',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
