@@ -44,11 +44,11 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'Background Colour Generator',
+    info: 'This simple app allows the user to preview colour selections for websites or other creative projects. I have plans to improvee this further with additional background effects.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://background-colour-preview.netlify.app/',
+    repo: 'https://github.com/RianMellotte/background-generator', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
