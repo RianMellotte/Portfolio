@@ -18,7 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpeg',
-  paragraphOne: '',
+  paragraphOne: 'Rian is a Developer based in Edinburgh. Originally from Northern Ireland, he moved to Scotland to study a MSc in Cognitive Science and Philosophy in the University of Edinburgh.',
   paragraphTwo: '',
   paragraphThree: '',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
