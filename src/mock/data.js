@@ -29,7 +29,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'chip.png',
     title: 'facerecognition411',
     info: 'This react app connects to clarifai\'s AI facial \
           recognition API to detect faces in the users \
