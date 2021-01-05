@@ -31,14 +31,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'chip.png',
     title: 'facerecognition411',
-    info: 'This react app connects to clarifai\'s AI facial \
-          recognition API to detect faces in the users \
-          submitted pictures. It makes use of front-\
-          end and back-end design to deliver various \
-          pages to the user. It also connects to a \
-          database to store users data and enable \
+    info: 'This react app connects to clarifai\'s AI facial recognition API to detect faces in the users submitted pictures.',
+    info2: 'It makes use of front-end and back-end design to deliver various pages to the user. It also connects to a database to store users data and enable \
           sign-in functionality.',
-    info2: '',
     url: 'https://facerecognition411.herokuapp.com/',
     repo: 'https://github.com/RianMellotte/facerecognition-Frontend', // if no repo, the button will not show up
   },
