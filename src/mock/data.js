@@ -44,21 +44,21 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'robofriends.png',
+    title: 'Robofriends',
+    info: 'This react application connects to an API, robohash, in order to deliver uniquely generated images of robots.',
+    info2: 'It also showcases a search function to easily return specific robots.',
+    url: 'https://riansrobofriends.netlify.app',
+    repo: 'https://github.com/RianMellotte/robofriends', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'project.jpg',
     title: 'Background Colour Generator',
     info: 'This simple app allows the user to preview colour selections for websites or other creative projects. I have plans to improvee this further with additional background effects.',
     info2: '',
     url: 'https://background-colour-preview.netlify.app/',
     repo: 'https://github.com/RianMellotte/background-generator', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
 ];
 
