@@ -58,7 +58,9 @@ const About = () => {
                     >
                       Resume
                     </a>
+
                   </span>
+                
                 )}
               </div>
             </Fade>

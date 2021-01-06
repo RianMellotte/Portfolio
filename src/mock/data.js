@@ -22,7 +22,7 @@ export const aboutData = {
   paragraphTwo: 'He has built and delpoyed applications from scratch in various languages, including Javacript, Python, HTML and CSS. ' + 
                 'Most of his spare time is spent either on walks with his fiancée, Katja and border collie Link, playing chess or listening to obscure podcasts.' ,
   paragraphThree: 'Rian is open to opportunities to join a small focused team tackling difficult and interesting problems.',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://rianmellotte.github.io/Resume/', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
