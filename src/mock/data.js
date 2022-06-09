@@ -20,7 +20,7 @@ export const aboutData = {
   img: 'profile.jpeg',
   paragraphOne: 'Rian is a Developer based in Edinburgh. Originally from Northern Ireland, he moved to Scotland to study an MSc in Cognitive Science and Philosophy in the University of Edinburgh.',
   paragraphTwo: 'He has built and delpoyed applications from scratch in various languages, including Javacript, Python, HTML and CSS. ' + 
-                'Most of his spare time is spent either on walks with his fiancée, Katja and border collie Link, playing chess or listening to obscure podcasts.' ,
+                'Most of his spare time is spent either on walks with his wife, Katja and border collie Link, playing chess or listening to obscure podcasts.' ,
   paragraphThree: 'Rian is open to opportunities to join a small focused team tackling difficult and interesting problems.',
   resume: 'https://rianmellotte.github.io/Resume/', // if no resume, the button will not show up
 };
